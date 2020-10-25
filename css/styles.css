@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'Glacial';
+    src: url('../GlacialIndifference-Bold.otf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+    font-family: 'Sweetheart';
+    src: url('../SweetheartScript-limited.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+#header {
+    background-color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(129, 53, 158, 0.5);
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Glacial', sans-serif;
+    font-weight: lighter;
+    /*color: #904766;*/
+}
+
+.navbar {
+    background-color: white;
+    padding-bottom: 1%;
+}
+
+#front-page {
+    background-image: url("../images/merendas2.png");
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.logo {
+    max-width: 1220px;
+    position: relative;
+    left: 35%;
+    top: 25%;
+}
+
+#menu-page {
+    background-image: url("../images/background1.jpeg");
+    background-attachment: fixed;
+    /*height: 119vh;*/
+    padding: 3%;
+}
+
+.menu-card {
+    background-color: white;
+    opacity: 0.96;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+.menu {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.card-title {
+    font-family: Sweetheart, sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+    color: #f89c00;
+}
+
+.card-subtitle {
+    text-align: center;
+    font-size: 12px;
+}
+
+.dotted {
+    border-style: none;
+    border-top: 4px dotted #904766;
+    margin-top: 11px;
+    margin-bottom: 11px;
+    opacity: 0.38;
+}
+
+.text-title {
+    margin-bottom: 0;
+    font-family: 'Glacial', sans-serif;
+    font-weight: bold;
+}
+
+.text-subtitle {
+    font-size: 10px;
+}
+
+.price {
+    margin-left: 10%;
+}
+
+#gallery-page {
+    padding: 3%;
+    max-width: 1220px;
+    margin: 0 auto;
+}
+.gallery-header {
+    font-family: Sweetheart, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    color: #904766;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.gallery-card {
+    border: thick double #D8C327;
+}
+
+.gallery-title {
+    font-family: Glacial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+    color: #363232;
+}
+
+.card-img-top {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+#order-page {
+    background-color: #904766;
+    padding: 3%;
+}
+
+.order-card {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.order-title {
+    color: white;
+    font-family: Sweetheart, sans-serif;
+    font-weight: bold;
+    font-size: 116px;
+}
+.order-subtitle {
+    color: #f89c00;
+    font-family: Glacial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.box {
+    max-width: 1220px;
+    /*height: 200px;*/
+    border-top: 10px solid #b89bc9;
+    border-right: 10px solid #b89bc9;
+    border-bottom: 10px solid #b89bc9;
+    border-left: 10px solid #b89bc9;
+    padding: 3% 3% 0 3%;
+}
+
+.fa-check {
+    color: #a7d28b;;
+    padding-right: 15px;
+}
+
+.check-text {
+    color: white;
+    font-size: 21px;
+    font-family: 'Cardo', serif;
+}
+
+.order-cards {
+    background-color: #b89bc9;
+    opacity: 0.92;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.order-icons {
+    text-align: center;
+    font-size: 50px;
+}
+
+.text-order {
+    font-family: Glacial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.hexagon {
+    position: absolute;
+    left: 927px;
+    top: 3269px;
+}
+
+.a-file-invoice-dollar{
+    color: black;
+}
+
+.fa-money-bill-alt{
+    color: #325d32;
+}
+
+.fa-shipping-fast {
+    color: #9500ff;
+}
+
+.attention-title {
+    color: #f89c00;
+    font-family: Glacial, sans-serif;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 3%;
+}
+
+@media (max-width: 1000px) {
+
+    .card-body-gallery {
+        padding: 0 16px 16px 16px;
+    }
+
+    .card-img-top {
+        margin: 0;
+    }
+
+    .gallery-title {
+        margin: 0;
+        text-align: center;
+        font-size: 19px;
+    }
+
+    .check-text:last-child {
+        margin-bottom: 0;
+    }
+
+    .gallery-header {
+        font-size: 70px;
+    }
+    .order-title {
+        font-size: 67px;
+    }
+
+    .order-subtitle {
+        font-size: 12px;
+        margin-bottom: 16px;
+    }
+
+    .order-cards {
+        margin-top: 16px;
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-bottom: 12px;
+    }
+    .text-order {
+        font-size: 14px;
+    }
+
+    .order-icons {
+        margin-bottom: 0;
+    }
+
+    .check-text {
+        font-size: 15px;
+    }
+
+    .attention-title {
+        font-size: 15px;
+        padding-top: 16px;
+        padding-bottom: 8px;
+    }
+
+    .logo {
+        position: relative;
+        left: 11%;
+        top: 33%;
+    }
+
+    .logo-image {
+        width: 77%;
+    }
+}
