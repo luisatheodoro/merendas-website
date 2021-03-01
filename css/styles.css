@@ -44,7 +44,7 @@
 }
 
 .logo {
-    max-width: 1220px;
+    max-width: 100vh;
     position: relative;
     left: 35%;
     top: 25%;
